@@ -13,7 +13,7 @@ const ProfileCards = (props: ProfileCardProps) => {
         <p>Nama: {name}</p>                                                                                                                                     
         <p>Birth Date: {year}</p>
 
-        {job && <p>Job: {job}</p> } /* pengisian optional */
+        {job && <p>Job: {job}</p> } 
         </div>
     );
 };
